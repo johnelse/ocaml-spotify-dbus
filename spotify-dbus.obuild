@@ -1,0 +1,9 @@
+name: spotify-dbus
+version: 0.1.0
+synopsis: Library for controlling Spotify via dbus
+obuild-ver: 1
+
+library spotify_dbus
+  src-dir: lib
+  modules: spotify_client, spotify_interfaces
+  build-deps: obus
