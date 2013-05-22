@@ -1,4 +1,4 @@
-Ocaml library for controlling Spotify via dbus
+OCaml library for controlling Spotify via dbus
 
 Dependencies:
 
