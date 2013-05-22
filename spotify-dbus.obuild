@@ -5,5 +5,5 @@ obuild-ver: 1
 
 library spotify_dbus
   src-dir: lib
-  modules: spotify_client, spotify_interfaces
+  modules: spotify_client, spotify_interfaces, spotify_proxy
   build-deps: obus
