@@ -7,3 +7,9 @@ library spotify_dbus
   src-dir: lib
   modules: spotify_client, spotify_interfaces, spotify_proxy
   build-deps: obus
+
+executable demo
+  src-dir: demo
+  main: demo.ml
+  build-deps: obus, spotify_dbus, lwt.syntax
+  pp: camlp4o
