@@ -1,6 +1,6 @@
 .PHONY: install uninstall clean
 
-dist/build/lib-spotify-dbus/spotify-dbus:
+dist/build/lib-spotify_dbus/spotify_dbus.cmxa:
 	obuild configure
 	obuild build
 
